@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Me</title>
+
+        <style>
+            body {
+                text-align: center;
+                margin: 0;
+                background-color: lightgrey;
+                font-family: Arial, Helvetica, sans-serif;
+                height: 100%;
+            }
+
+            header {
+                background-color: darkslategray;
+                padding: 15px;
+            }
+
+            footer {
+                background-color: rgb(61, 61, 61);
+                padding-top: 50px;
+                padding-bottom: 50px;
+                margin-bottom: 0;
+                height: 100px;
+            }
+
+            .text-input {
+                font-size: 18px;
+                padding-bottom: 12px;
+                margin-bottom: 36px;
+                border: 0;
+                border-bottom: 1px solid #ccc;
+                width: 100%;
+            }
+
+            #submit-button {
+                background-color: rgb(37, 37, 37);
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding-left: 24px;
+                padding-right: 24px;
+                font-size: 18px;
+                color: white;
+                border: none;
+            }
+
+            .form-container {
+                background-color: white;
+                width: 600px;
+                padding: 25px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 75px;
+                
+            }
+
+            .menu-item {
+                padding: 10px;
+                color: white;
+            }
+
+            #spacer {
+                background-color: purple;
+                flex: 1 1 auto;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <header>
+            <a class="menu-item" href="index.html">HOME</a>
+            <a class="menu-item" href="trips.html">TRIPS</a>
+            <a class="menu-item" href="about.html">ABOUT</a>
+            <a class="menu-item" href="contact.html">CONTACT</a>
+        </header>
+
+        <h1>Contact Me</h1>
+        <p>Do you want to go on my next trip with me? Contact me today!</p>
+
+        <section>
+            <div class="form-container">
+                <form method="GET">
+                    <div>
+                        <input class="text-input" type="text" name="name" placeholder="Full Name" required>
+                    </div>
+    
+                    <div>
+                        <input class="text-input" type="email" name="email" placeholder="Email" required>
+                    </div>
+
+                    <div>
+                        <input class="text-input" type="tel" name="phone" placeholder="Contact Number">
+                    </div>
+    
+                    <input id="submit-button" type="submit" name="submit" value="Submit">
+               </form>
+            </div>   
+        </section>
+       
+        <div id="spacer"></div>
+
+        <footer>
+            <a class="menu-item" href="index.html">HOME</a>
+            <a class="menu-item" href="trips.html">TRIPS</a>
+            <a class="menu-item" href="about.html">ABOUT</a>
+            <a class="menu-item" href="contact.html">CONTACT</a>
+        </footer>
+    </body>
+</html>
