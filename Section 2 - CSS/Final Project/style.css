@@ -1,0 +1,605 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width: 100%;
+}
+
+footer {
+    background-color: #232323;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+main {
+    width: 100%;
+    text-align: center;
+}
+
+.zoomable-icon {
+    transition: transform .2s;
+}
+
+.zoomable-icon:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.light-gray-text{
+    font-size: 16px;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    margin-bottom: 25px;
+}
+
+.light-gray-bold-text{
+    font-size: 16px;
+    font-weight: 500;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    margin-bottom: 55px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.green-italic {
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+
+/* ------------------------------- */
+/* Header */
+/* ------------------------------- */
+
+header {
+    padding-left: 18px;
+    padding-right: 18px;
+    height: 77px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    z-index: 10;
+}
+
+.menu-item {
+    float: right;
+    margin-right: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 10px;
+}
+
+#left-header {
+    width: 10%;
+}
+
+#logo {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 19px;
+    margin-left: 10px;
+}
+
+#right-header {
+    width: 90%;
+    position: relative;
+    top: 18px;
+    right: 36px;
+}
+
+#buy-button {
+    float: right;
+    position: relative;
+    padding: 9px 34px;
+    background-color: rgb(170, 210, 54);
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    margin-right: 26px;
+    font-size: 12px;
+    border: none;
+    top: 5px;
+}
+
+#demo-dropdown {
+    width: 140px;
+    height: 100px;
+    position: relative;
+    padding: 20px;
+    border-top: 2px solid rgb(170, 210, 54);
+    background-color: white;
+    box-shadow: 0 2px 5px #ccc;
+    float: right;
+    position: relative;
+    top: 25px;
+    left: 100px;
+    display: none;
+}
+
+#demo-dropdown :nth-child(2) {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+#dropdown-item-wrapper {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.dropdown-item {
+    text-decoration: none;
+    color: black;
+}
+
+#demo-dropdown-wrapper:hover #demo-dropdown {
+    display: block;
+}
+
+
+/* ------------------------------- */
+/* Section 1 */
+/* ------------------------------- */
+
+#section1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section1-text-container {
+    position: relative;
+    top: 35%;
+}
+
+#section1-header {
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+    margin-bottom: 50px;
+}
+
+#section1-desc {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #8b8b99;
+}
+
+
+/* ------------------------------- */
+/* Section 2 */
+/* ------------------------------- */
+
+#section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    color: white;
+}
+
+.step-tile {
+    padding: 112px 48px;
+    width: 25%;
+}
+
+#step1 {
+    background-color: #5acda6;
+}
+
+#step2 {
+    background-color: #91ac41;
+}
+
+#step3 {
+    background-color: #e4b476;
+}
+
+#step4 {
+    background-color: #f69dad;
+}
+
+.step-label {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.step-desc {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+}
+
+
+/* ------------------------------- */
+/* Section 3 */
+/* ------------------------------- */
+
+#section3 {
+    background-color: #f7eee2;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+#section3-collection {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+.section3-tile {
+    width: 25%;
+}
+
+.section3-store-item {
+    padding: 25px;
+}
+
+.section3-icon-wrapper {
+    height: 140px;
+    width: 140px;
+    background-color: #e3b375;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.section3-white-icon {
+    color: white;
+    position: relative;
+    top: 35px;
+}
+
+.section3-item-heading {
+    font-size: 600;
+    font-weight: 24px;
+}
+
+.section3-step-description {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #8b8b99;
+}
+
+
+/* ------------------------------- */
+/* Section 4 */
+/* ------------------------------- */
+
+#section4 {
+    background-color: white;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin: 0px 15px;
+}
+
+#section4-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section4-tile {
+    width: 25%;
+    padding: 40px 30px;
+    margin: 16px;
+    Background-Color: #f5f6fb;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+
+.section4-tile:nth-child(2) {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.section4-tile:hover {
+    box-shadow: 0 12px 16px 0 rgba(39,39,47,0.06);
+}
+
+.section4-img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.section4-testimonial {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-style: Italic;
+    color: #8b8b99;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.section4-tile h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+
+.section4-profession {
+    font-size: 12px;
+    color: #8b8b99;
+    font-style: Italic;
+}
+
+
+/* ------------------------------- */
+/* Section 5 */
+/* ------------------------------- */
+
+#section5 {
+    background-color: white;
+    display: flex;
+}
+
+#section5-img-container {
+    width: 76%;
+}
+
+#berry-img {
+    width: 100%;
+}
+
+#follow-us-container {
+    background-image: url("https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png");
+    background-position: left;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    width: 33.33%;
+    text-align: left;
+}
+
+#text-wrapper {
+    margin: 115px;
+}
+
+#subscribe-button {
+    background-color: #f69dad;
+    padding: 16px 42px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 16px
+}
+
+#subscribe-button:hover {
+    background-color: transparent;
+    color: #f69dad;
+    border: 1px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #f69dad;
+}
+
+#subscribe-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.light-gray-text{
+    font-size: 16px;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    margin-bottom: 25px;
+}
+
+
+/* ------------------------------- */
+/* Section 6 */
+/* ------------------------------- */
+
+#section6 {
+    background-color: #f6fcfa;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#section6-stats-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section6-green-text {
+    color: #57e3b5;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    margin: 0;
+}
+
+
+/* ------------------------------- */
+/* Section 7 */
+/* ------------------------------- */
+
+#section7 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#section7 h1 {
+    color: #8b8b99;
+    font-size: 44px;
+    font-weight: 400;
+    display: block;
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
+
+#seperator {
+    width: 96px;
+    display: inline-block;
+    height: 1px;
+    background-color: #e4b476;
+    margin-bottom: 36px;
+}
+
+#video-container {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#video {
+    width: 100%;
+    height: 425px;
+}
+
+
+/* ------------------------------- */
+/* Section 8 */
+/* ------------------------------- */
+
+#section8 {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+#section8 > div {
+    width: 50%;
+    text-align: left;
+    margin: 15px;
+}
+
+.text-input {
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    color: #8b8b99;
+    border-radius: 6px;
+    border: 1px solid #e5e6ec;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#submit-button {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(170, 210, 54);
+    padding: 9px 34px;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 4px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {    
+    .menu-item {
+        display: none;
+    }
+
+    .primary-button {
+        margin-right: 0
+    }
+
+    #section1-header {
+        font-size: 28px;
+    }
+
+    #section1-desc {
+        padding: 16px;
+        box-sizing: border-box;
+    }
+
+    #section2 {
+        flex-direction: column;
+        width: 100%;
+    }
+   
+    .step-tile {
+        width: auto;
+    }
+
+    #section3-collection {
+        flex-direction: column;
+    }
+
+    .section3-tile {
+        width: auto;
+        padding: 0px 24px;
+    }
+
+    #section4-container {
+        flex-direction: column;
+    }
+    
+    .section4-tile {
+        width: auto;
+        margin: 16px;
+    }
+
+    #section5 {
+        background-color: white;
+        flex-direction: column;
+    }
+    
+    #section5-img-container {
+        width: auto;
+    }
+    
+    #follow-us-container {
+        width: auto;
+    }
+    
+    #section6-stats-container {
+        flex-direction: column;
+    }
+
+    .section6-stat-wrapper {
+        margin: 15px 0px;
+    }
+
+    #video-container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    #section8 {
+        flex-direction: column;
+    }
+
+    #section8 > div {
+        width: auto;
+    }
+}
