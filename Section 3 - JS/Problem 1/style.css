@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/31/67/7RrJ1X.jpg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 40%;
+    left: 10%;
+    right: 10%;
+}
+
+main div h2 {
+    color: white;
+    font-weight: bold;
+    opacity: 1;
+}
+
+main div p {
+    color: gold;
+    font-size: small;
+    opacity: 1;
+}
+
+.sound-block {
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: black;
+    box-sizing: border-box;
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    opacity: 0.9;
+}
