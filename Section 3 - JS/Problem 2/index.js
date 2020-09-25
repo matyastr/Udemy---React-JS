@@ -26,4 +26,4 @@ const addListButton = document.getElementById("add-list-btn");
 
 addListButton.addEventListener("click", function(e) {
     addListItem();
-});
+}); 
