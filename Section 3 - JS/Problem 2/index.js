@@ -16,7 +16,7 @@ function addListItem() {
     }
 }
 
-document.body.addEventListener('keydown', function(e) {
+inputField.addEventListener('keydown', function(e) {
    if (e.key === "Enter") {
         addListItem();
    }
