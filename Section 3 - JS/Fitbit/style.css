@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    background-color: white;
+    background-size: cover;
+    font-family: "Source Sans Pro";
+    text-align: center;
+    justify-content: center;
+}
+
+header {
+    height: 40px;
+    width: auto;
+    background-color: rgb(110, 189, 209);
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+section {
+    text-align: left;
+    margin-left: 10%;
+}
+
+header > img {
+    height: 100%
+}
+
+
+/* ------------------------------- */
+/* PDP Left Hand Component */
+/* ------------------------------- */
+
+#pdp-image-block {
+    display: inline-block;
+    width: 400px;
+    margin-top: 25px;
+    z-index: -10;
+}
+
+#pdp-image {
+    height: 100%;
+    width: 100%;
+}
+
+#pdp-image {
+    height: 100%;
+    width: 100%;
+}
+
+#pdp-desc-block {
+    display: inline-block;
+    width: 50%;
+}
+
+#pdp-desc-block {
+    display: inline-block;
+    width: 50%;
+}
+
+#time {
+    font-family: "Montserrat";
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    position: relative;
+    bottom: 265px;
+    left: 145px;
+    font-size: x-large;
+}
+
+#time-container {
+    width: 125px;
+}
+
+#heart-container {
+    font-family: "Montserrat";
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    position: relative;
+    bottom: 255px;
+    left: 185px;
+    font-size: x-large;
+    width: 50px;
+}
+
+#heart-icon {
+    color: red;
+    animation: heart-pulse 1s infinite;
+}
+
+@keyframes heart-pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.15);
+    }
+    
+    50% {
+        transform: scale(1.35);
+    }
+
+    75% {
+        transform: scale(1.15);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+/* ------------------------------- */
+/* PDP Right Hand Component */
+/* ------------------------------- */
+
+#pdp-desc-block {
+    margin-top: 25px;
+    vertical-align: top;
+}
+
+
+/* ------------------------------- */
+/* Color Buttons */
+/* ------------------------------- */
+
+.color-button {
+    width: 50px;
+    height: 35px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.color-button:hover {
+    cursor: pointer;
+}
+
+.color-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#red-button {
+    background-color: #ca3d22;
+}
+
+#black-button {
+    background-color: #23211f;
+}
+
+#blue-button {
+    background-color: #565681;
+}
+
+#pink-button {
+    background-color: #e9c7be;
+}
+
+#pink-button {
+    background-color: #e9c7be;
+}
+
+#purple-button {
+    background-color: #8a5362;
+}
+
+
+/* ------------------------------- */
+/* Feature and Buy Buttons */
+/* ------------------------------- */
+
+.feature-button {
+    font-size: small;
+    height: 35px;
+    margin-right: 5px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    background-color: #dddddd;
+}
+
+.feature-button:hover {
+    cursor: pointer;
+}
+
+.feature-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+#buy-button {
+    font-size: small;
+    font-weight: bold;
+    height: 35px;
+    margin-right: 5px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 25px;
+    border: none;
+    background-color: #eea73b;
+}
+
+#buy-button:hover {
+    cursor: pointer;
+}
+
+#buy-button:focus {
+    outline: none;
+    box-shadow: none;
+}
