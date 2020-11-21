@@ -23,6 +23,10 @@ class App extends Component{
     this.setState({currentWatchFeaturePos: pos});
   };
 
+  shouldComponentUpdate(nextProps, nextState) {
+    return nextState.currentWatchFeaturePos !== this.state.currentWatchImagePos;
+  }
+
   render() {
     return (
       <div className={classes.App}>

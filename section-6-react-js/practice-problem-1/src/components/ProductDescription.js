@@ -22,7 +22,7 @@ const ProductDescription = (props) => {
     const featureButtons = props.data.featureList.map((item, pos) => {
         const classArr = [classes.FeatureButton];
         
-        if (pos == props.currentWatchFeaturePos) {
+        if (pos === props.currentWatchFeaturePos) {
             classArr.push(classes.SelectedFeatureButton);
         }
         
