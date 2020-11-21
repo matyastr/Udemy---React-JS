@@ -1,0 +1,62 @@
+.PdpImgBlock {
+    width: 100%;
+    margin-top: 25px;
+    position: relative;
+  }
+  
+  .PdpImage {
+    width: 100%;
+  }
+  
+  .TimeSection {
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+  }
+  
+  .HeartRateSection {
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+  }
+  
+  .HeartRateSection > p {
+    margin-top: 16px;
+  }
+  
+  .HeartRateSection > i {
+    color: red;
+    animation: pulse 1s infinite
+  }
+  
+  @keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+  
+    25% {
+        transform: scale(1.15);
+    }
+    
+    50% {
+        transform: scale(1.35);
+    }
+  
+    75% {
+        transform: scale(1.15);
+    }
+  
+    100% {
+        transform: scale(1);
+    }
+  }

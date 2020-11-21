@@ -1,0 +1,19 @@
+.body {
+  font-family: "Source Sans Pro", sans-serif;
+  min-width: 1500px;
+}
+
+.App {
+  margin: 0;
+  background-color: white;
+  background-size: cover;
+  font-family: "Source Sans Pro";
+}
+
+.PdpContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 4% 12%;
+  box-sizing: border-box;
+}

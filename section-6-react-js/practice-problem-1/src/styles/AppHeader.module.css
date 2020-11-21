@@ -1,0 +1,12 @@
+.AppHeader {
+  height: 40px;
+  width: auto;
+  background-color: rgb(110, 189, 209);
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.AmazonImg {
+  height: 100%;
+}
